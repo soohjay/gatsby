@@ -1,11 +1,12 @@
-import React from 'react';
-import Header from '../components/header';
+import React from "react"
+import Header from "../components/Header"
+import About from "../containers/About"
 
-export default function About() {
+export default function AboutPage() {
   return (
     <>
-      <Header title="About"/>
-      <h3>어바웃 페이지 입니다.</h3>
+      <Header title="About" />
+      <About />
     </>
   )
 }
